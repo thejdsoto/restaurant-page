@@ -1,5 +1,5 @@
 import { homepage as Homepage } from './home.js';
-import { restaurants, restaurants as Restaurants } from './restaurants.js';
+import { restaurants as Restaurants } from './restaurants.js';
 import { reservations as Reservations } from './reservations.js';
 import "./style.css";
 
