@@ -3,11 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+.poppins {
     font-family: "Poppins", sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
 h2 {
@@ -44,11 +49,15 @@ header {
 
             .header-nav button {
                 margin: auto 8px;
-                font-family: 'Mulish', sans-serif;
                 font-size: 14px;
                 line-height: 22px;
                 font-weight: 400;
                 background-color: transparent;
+            }
+
+            .header-nav button:hover {
+                padding: 4px;
+                border-bottom: 2px solid red;
             }
     
     .header-btn {
@@ -58,7 +67,6 @@ header {
     }
 
         .header-btn button {
-            font-family: 'Mulish', sans-serif;
             font-size: 14px;
             line-height: 22px;
             color: #FFFFFFFF;
@@ -88,7 +96,6 @@ header {
     }
 
     .hero p {
-        font-family: 'Mulish', sans-serif;
         font-size: 24px;
         line-height: 36px;
         font-weight: 400;
@@ -97,7 +104,6 @@ header {
     }
 
     .hero button {
-        font-family: 'Mulish', sans-serif;
         font-size: 18px;
         line-height: 28px;
         font-weight: 400;
@@ -122,9 +128,9 @@ header {
     }
 
         .featured-restaurants .container .card {
+            display: flex;
             width: 25%;
             height: 400px;
-            display: flex;
     }
 
             .featured-restaurants .container .card  .text {
@@ -142,23 +148,21 @@ header {
             }
 
             .featured-restaurants .container .card  .text p {
-                font-family: 'Mulish', sans-serif;
                 font-size: 14px;
                 line-height: 22px;
                 font-weight: 400;
                 color: #9095A0FF;
             }
 
-                .featured-restaurants .container .card  .text .text-content {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: start;
-                    justify-content: space-between;
-                    height: 90%;
-                }
+            .featured-restaurants .container .card  .text .text-content {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: space-between;
+                height: 90%;
+            }
 
                 .featured-restaurants .container .card  .text .text-content button {
-                    font-family: 'Mulish', sans-serif;
                     font-size: 14px;
                     line-height: 22px;
                     font-weight: 400;
@@ -217,18 +221,17 @@ header {
     }
 
 
-    .testimonials .testimonial-container .container p {
-        font-family: 'Mulish', sans-serif;
-        font-size: 20px;
-    }
-
-        .testimonials .testimonial-container .container p.rating {
-            color: #F3C63F;
-            margin-bottom: 8px;
-            font-size: 36px;
+        .testimonial-container .container p {
+            font-size: 20px;
         }
 
-    .testimonial-container div {
-        margin-top: 24px;
-    }
+            .testimonial-container .container p.rating {
+                color: #F3C63F;
+                margin-bottom: 8px;
+                font-size: 36px;
+            }
+
+        .testimonial-container div {
+            margin-top: 24px;
+        }
 

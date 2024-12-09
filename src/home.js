@@ -5,12 +5,12 @@ import Restaurant3 from './assets/res-3.jpg';
 
 const homepage = `        
     <div class="hero">
-        <h1>Discover Culinary Delights</h1>
+        <h1 class>Discover Culinary Delights</h1>
         <p>Explore the best dining spots and cuisines around you.</p>
         <button>Explore Restaurants</button>
     </div>
     <div class="featured-restaurants">
-    <h2>Featured Restaurants</h2>
+    <h2 class>Featured Restaurants</h2>
         <div class="container">
             <div class="card">
                 <div class="text">
@@ -62,7 +62,7 @@ const homepage = `
                     <p>DineFinder made it so easy to discover new local restaurants. The recommendations were spot on!</p>
                 </div>
                 <div class="comment-author">
-                    <p><strong>Versaies Antoinette Soto aka Vivi</strong><p>
+                    <p class="poppins"><strong>Versaies Antoinette Soto aka Vivi</strong><p>
                     <p>Food Blogger</p>
                 </div>
             </div>
