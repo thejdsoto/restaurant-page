@@ -3,6 +3,7 @@ import { restaurants as Restaurants } from './restaurants.js';
 import { reservations as Reservations } from './reservations.js';
 import "./style.css";
 
+
 const app = document.getElementById('content');
 const navButton = document.querySelectorAll('header nav button');
 app.innerHTML = Homepage;

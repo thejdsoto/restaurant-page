@@ -1,10 +1,234 @@
-html, body {
+*, html, body {
     border: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-div {
-    border: 1px solid black;
+h1, h2 {
+    text-align: center;
 }
+
+h2 {
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+
+header, header .header-nav, .header-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header { 
+    background-color: #FFFFFFFF;
+    display: flex;
+    align-items: center;
+    margin: 8px auto;
+}
+
+    .header-nav {
+        margin-left: 48px;
+        gap: 48px;
+    }
+
+        .header-nav p {
+            font-size: 28px;
+            line-height: 42px;
+            font-weight: 700;
+            color: #000000FF;
+        }
+
+            .header-nav button {
+                margin: auto 8px;
+                font-family: 'Mulish', sans-serif;
+                font-size: 14px;
+                line-height: 22px;
+                font-weight: 400;
+                background-color: transparent;
+            }
+    
+    .header-btn {
+        justify-content: center;
+        gap: 48px;
+        margin-right: 48px;
+    }
+
+        .header-btn button {
+            font-family: 'Mulish', sans-serif;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFFFF;
+            background-color: #EB6769FF;
+            padding: 4px 36px;
+            border: none;
+            border-radius: 8px;
+        }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 640px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/andrew-seaman-sQopSb2K0CU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #FFFFFFFF;
+}
+
+    .hero h1 {
+        font-size: 64px;
+        font-weight: 700;
+        color: #FFFFFFFF;
+    }
+
+    .hero p {
+        font-family: 'Mulish', sans-serif;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 36px;
+    }
+
+    .hero button {
+        font-family: 'Mulish', sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #FFFFFFFF;
+        background-color: #EB6769FF;
+        border: none;
+        border-radius: 6px;
+        padding: 10px 20px;
+    }
+
+.featured-restaurants {
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+}
+
+    .featured-restaurants .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+    }
+
+        .featured-restaurants .container .card {
+            width: 25%;
+            height: 400px;
+            display: flex;
+    }
+
+            .featured-restaurants .container .card  .text {
+                display: flex;
+                flex-direction: column;
+                width: 40%;
+        }
+
+            .featured-restaurants .container .card  .text h3 {
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 700;
+                color: #171A1FFF;
+                margin-bottom: 12px;
+            }
+
+            .featured-restaurants .container .card  .text p {
+                font-family: 'Mulish', sans-serif;
+                font-size: 14px;
+                line-height: 22px;
+                font-weight: 400;
+                color: #9095A0FF;
+            }
+
+                .featured-restaurants .container .card  .text .text-content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: space-between;
+                    height: 90%;
+                }
+
+                .featured-restaurants .container .card  .text .text-content button {
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    color: #EB6769FF;
+                    background-color: #FFFFFFFF;
+                    border: 1px solid #EB6769FF;
+                    border-radius: 6px;
+                    padding: 6px 12px;
+                }
+
+            .featured-restaurants .container .card .image {
+                width: 60%;
+                padding: 8px;
+        }
+
+            .featured-restaurants .container .card .image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 48px;
+}
+
+    .testimonial-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .testimonial-container .image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        padding: 4px;
+    }
+
+        .testimonial-container .image-container img {
+            width: 60%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+    .testimonial-container .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40%;
+    }
+
+
+    .testimonials .testimonial-container .container p {
+        font-family: 'Mulish', sans-serif;
+        font-size: 20px;
+    }
+
+        .testimonials .testimonial-container .container p.rating {
+            color: #F3C63F;
+            margin-bottom: 8px;
+            font-size: 36px;
+        }
+
+    .testimonial-container div {
+        margin-top: 24px;
+    }
+
